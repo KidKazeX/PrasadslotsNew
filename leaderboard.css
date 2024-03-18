@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('wallpaperflare.com_wallpaper_6.jpg');
+    
+    background-blend-mode: darken;
+    background-size: cover;
+    text-align: center;
+    
+}
+.navbar{
+    display: flex;
+    text-align: right;
+    
+}
+.ul{
+    overflow: hidden;
+    position: sticky;
+}
+.logo{
+    width: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo img{
+    width: 400%;
+    
+}
+
+.nav-list{
+    width: 100%;
+    background-color: #100000;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    flex: 1 1 200px;
+    
+    
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+    align-items: center;
+    font-family: monospace;
+    font: bolder;
+    font-size: 20px;
+    font-style: oblique;
+    flex: 1 1 80px;
+   
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #636363 ;
+    text-decoration: solid;
+    font-family: monospace;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: #D0CCCC;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.background h1{
+    font-size: 100px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-style: oblique;
+    color: #D0CCCC;
+}
+.background button{
+    background-color: #0B0B0B;
+    color: goldenrod;
+    font-size: x-large;
+    border-radius: 12px;
+    padding: 50px;
+}
+.end{
+    font-size: x-large;
+    font-weight: bolder;
+    color: #D0CCCC;
+}
+.foot{
+    background-color: #100000;
+}
+.foot h1{
+    color: #D0CCCC;
+    font-size: xx-large;
+    padding-left: 3%;
+    font-family: monospace;
+}
+.foot li{
+    list-style: none;
+}
+.foot li a{
+    text-decoration: none;
+    color: #D0CCCC;
+    padding: 10px;
+    padding-top: 10px;
+    font-size: larger;
+    padding-left: 3%;
+    font-family: monospace;
+}
+.foot li a:hover{
+    text-decoration: none;
+    color: #D0CCCC;
+    font-style: italic;
+}
+.rside{
+    text-align: center;
+}
+.rside a{
+    text-decoration: none;
+    font-family: monospace;
+}
+.rside a:hover{
+    text-decoration: none;
+    color: #D0CCCC;
+    font-style: italic;
+}
+.lead h1{
+    font-style: normal;
+    font-family: monospace;
+    font-weight: bolder;
+    color: #D0CCCC;
+}
+.lead p{
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: xx-large;
+    color: #D0CCCC;
+}
+.lead h2{
+    color: #D0CCCC;
+}

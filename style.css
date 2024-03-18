@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('wallpaperflare.com_wallpaper_6.jpg');
+    
+    background-blend-mode: darken;
+    background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    text-align: right;
+    
+}
+.ul{
+    overflow: hidden;
+    position: sticky;
+}
+.logo{
+    width: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo img{
+    width: 400%;
+    
+}
+
+.nav-list{
+    width: 100%;
+    background-color: #100000;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    flex: 1 1 200px;
+    
+    
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+    align-items: center;
+    font-family: monospace;
+    font: bolder;
+    font-size: 20px;
+    font-style: oblique;
+    flex: 1 1 80px;
+   
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #636363 ;
+    text-decoration: solid;
+    font-family: monospace;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: #D0CCCC;
+    font-style: italic;
+    font-family: monospace;
+}
+.firsthalf{
+    align-items: center;
+}
+.firsthalf img{
+    width: 30%;
+    padding-left: 500px;
+}
+.secondhalf{
+    color: #D0CCCC;
+    text-align: center;
+    padding-right: 80px;
+    font-size: xx-large;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.secondhalf button{
+    background-color: #000; 
+    border: none;
+    color: #D0CCCC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: monospace;
+}
+.secondhalf button:hover{
+    background-color: grey; /* Green */
+    color: black;
+}
+.join{
+    font-style: normal;
+    color: #D0CCCC;
+    font-size: large;
+    font-family: monospace;
+}
+.socials{
+    font-family: monospace;
+    font-size: 150px;
+    text-align: center;
+    font-weight: bolder;
+    color: #D0CCCC;
+}
+.socials button{
+    background-color: #000; 
+    border: #D0CCCC;
+    border-color: #D0CCCC;
+    color: #D0CCCC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    padding: 50px;
+    font-family: monospace;
+}
+.socials button:hover{
+    background-color: grey; /* Green */
+    color: black;
+}
+.socials img{
+    width: 100%;
+
+}
+.foot{
+    background-color: #100000;
+}
+.foot h1{
+    color: #D0CCCC;
+    font-size: xx-large;
+    padding-left: 3%;
+    font-family: monospace;
+}
+.foot li{
+    list-style: none;
+}
+.foot li a{
+    text-decoration: none;
+    color: #D0CCCC;
+    padding: 10px;
+    padding-top: 10px;
+    font-size: larger;
+    padding-left: 3%;
+    font-family: monospace;
+}
+.foot li a:hover{
+    text-decoration: none;
+    color: #D0CCCC;
+    font-style: italic;
+}
+.rside{
+    text-align: center;
+}
+.rside a{
+    text-decoration: none;
+    font-family: monospace;
+}
+.rside a:hover{
+    text-decoration: none;
+    color: #D0CCCC;
+    font-style: italic;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+@media (max-width: 600pxx) {
+    
+}
